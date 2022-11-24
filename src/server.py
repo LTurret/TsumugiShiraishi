@@ -6,8 +6,10 @@ import interactions
 
 from flask import Flask, request, redirect, render_template
 
-with open("./config.json") as scopes:
-    scopes = json.load(scopes)["scopes"]
+with open("./config.json") as config:
+    config = json.load(config)
+    scopes = config["scopes"]
+    port = config["port"]
 
 class server(interactions.Extension):
     def __init__(self, Tsumugi):
