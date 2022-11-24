@@ -1,6 +1,6 @@
 # TsumugiShiraishi
 
-A service used for hosting a flask server and operates with discord bot.
+A basic templates used for hosting a flask server and operates with discord bot.
 
 ## Configurations
 
