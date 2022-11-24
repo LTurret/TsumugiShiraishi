@@ -3,7 +3,7 @@ import os
 
 import interactions
 
-with open("./config/token.json") as token:
+with open("./config.json") as token:
     token = json.load(token)["token"]
 
 Tsumugi = interactions.Client(
